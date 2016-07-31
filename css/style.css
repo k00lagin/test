@@ -1,0 +1,374 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+footer {
+  display: block;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+img {
+  border: 0;
+}
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+  *,
+  *:before,
+  *:after {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2 {
+    page-break-after: avoid;
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1,
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  margin: 0 0 10px;
+}
+.small {
+  font-size: 85%;
+}
+.text-muted {
+  color: #777;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-xs-12, .col-sm-12, .col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-12 {
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-default:active {
+  background-image: none;
+}
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.container:after,
+.row:after {
+  clear: both;
+}
+@-ms-viewport {
+  width: device-width;
+}
+
+/*****                                                       *****/
+/* Cooming Soon page style by GreenTea OS Team and contribuitors */
+/*****                                                       *****/
+
+
+body {
+    margin: 0;
+    background: #f8f8f8;
+    border-top: 10px solid #24c12e;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    font-weight: 400;
+    text-align: left;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #e75967;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+::-moz-selection {
+    background: #24c12e;
+    color: #000;
+    text-shadow: none;
+}
+::selection {
+    background: #24c12e;
+    color: #000;
+    text-shadow: none;
+}
+
+
+
+/***** Coming Soon *****/
+
+.coming-soon {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: #272822;
+}
+
+.coming-soon h1 {
+    color: aqua;
+}
+
+.inner-bg {
+    padding: 55px 0 60px 0;
+  
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+}
+
+.coming-soon h2 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0 1px 27px rgba(0, 0, 0, 0.5);
+}
+
+.coming-soon p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 36px;
+    display: inline-block;
+    background: rgba(39, 40, 34,0.6);
+}
+
+.coming-soon__paragraph-wrap {
+    margin: 20px 0 10px;
+}
+
+
+
+/***** Content *****/
+
+@media (max-width: 991px) {
+    .twitter-wrap,
+    .about-us-wrap {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .twitter-wrap,
+    .about-us-wrap {
+        width: 50%;
+    }
+}
+.twitter-wrap,
+.about-us-wrap {
+    padding: 0 15px;
+    float: left;
+}
+
+
+
+/***** Footer *****/
+
+.footer__text {
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+
+/***** Media Queries *****/
+
+@media (max-width: 767px) {
+
+    .inner-bg { padding: 45px 0 50px 0; }
+
+    .coming-soon h2 { font-size: 36px; }
+}
+
+.bt {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+/* Navbar brand */
+.navbar-brand > img {
+    max-height: 100%;
+    height: 100%;
+        object-fit: contain;
+    width: auto;
+    margin: 0 auto;
+}
+
+.feature-box-icon {
+  background: #CCC;
+    border-radius: 35px;
+    color: #FFF;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 35px;
+    background-color: #24c12e;
+}
+{% include backcode.css %}
