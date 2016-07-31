@@ -2,15 +2,6 @@
 <html lang="{{page.lang}}">
 
     <head>
-        {% if false %}
-        <script>
-            var lang = ((window.navigator.languages && window.navigator.languages[0]) || window.navigator.userLanguage || window.navigator.language || window.navigator.systemLanguage).substr(0, 2).toLowerCase();
-            av = {"ru":1,"it":1};
-            if (av[lang]) {
-                location.pathname = lang + location.pathname;
-            }
-        </script>
-        {% endif %}
         <script>
             {% include font-caching.js %}
             loadFont("Lato Regular", "https://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff", "https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2");
